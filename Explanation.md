@@ -1,0 +1,46 @@
+# 🖧 Computer Network Overview
+
+This project showcases a basic computer network topology using Cisco Packet Tracer, integrating core networking devices, client systems, servers, and IoT technology.
+
+---
+
+## 🌐 Networking Fundamentals
+
+### IP Addressing & Subnetting
+Every device in a network requires an IP address to communicate. IP addresses are often grouped using **subnets**, which define how many devices can exist within a particular range. These are based on binary values and categorized into **classes** (A, B, C, etc.) depending on network size.
+
+### Static vs. Dynamic IP
+- **Static IP**: Manually configured and fixed.
+- **Dynamic IP**: Assigned automatically, typically by a **DHCP server**.
+
+### LAN & VLAN
+- A **LAN (Local Area Network)** connects devices in a small physical area.
+- A **VLAN (Virtual LAN)** can group devices logically, even if they’re not physically close.
+
+### Network Devices
+- **Router**: Directs data between networks.
+- **Switch**: Connects devices within the same LAN.
+- **Access Point**: Provides wireless network access.
+- **Server**: Offers services like DHCP or file sharing.
+- **Endpoint Devices**: PCs, laptops, and other user-side devices.
+
+### IoT Devices
+**Internet of Things (IoT)** devices (e.g., webcams, fans, lights) are typically lightweight, wirelessly connected, and can be remotely monitored or controlled.
+
+---
+
+## 🖥️ Network Topology Structure
+
+The network is split into three segments, all connected through a central **router**:
+
+### 1. Office LAN (Left)
+- 20 PCs connected to a **switch**.
+- A **server** provides services like DHCP or internal file storage.
+
+### 2. Admin LAN (Center)
+- 4 administrative PCs connected through a central **switch**.
+- Possibly isolated via a VLAN for security or management.
+
+### 3. IoT & Wireless LAN (Right)
+- IoT devices (Webcam, Fan, Light, Garage Door) connected via an **Access Point**.
+- Includes a **server**, **laptop**, and **PCs** to manage or monitor IoT operations.
