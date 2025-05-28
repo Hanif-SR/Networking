@@ -1,10 +1,8 @@
-# 🖧 Computer Network Overview
+# Computer Network Overview
 
-This project showcases a basic computer network topology using Cisco Packet Tracer, integrating core networking devices, client systems, servers, and IoT technology.
 
----
 
-## 🌐 Networking Fundamentals
+## Networking Fundamentals
 
 ### IP Addressing & Subnetting
 Every device in a network requires an IP address to communicate. IP addresses are often grouped using **subnets**, which define how many devices can exist within a particular range. These are based on binary values and categorized into **classes** (A, B, C, etc.) depending on network size.
@@ -29,7 +27,7 @@ Every device in a network requires an IP address to communicate. IP addresses ar
 
 ---
 
-## 🖥️ Network Topology Structure
+## Network Topology Structure
 
 The network is split into three segments, all connected through a central **router**:
 
