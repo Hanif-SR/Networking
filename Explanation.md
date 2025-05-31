@@ -1,6 +1,6 @@
 # Computer Network Overview
 
-
+---
 
 ## Networking Fundamentals
 
@@ -32,13 +32,24 @@ Every device in a network requires an IP address to communicate. IP addresses ar
 The network is split into three segments, all connected through a central **router**:
 
 ### 1. Office LAN (Left)
+
+![image](https://github.com/user-attachments/assets/30fb6356-b687-4c3a-b798-4c746a6a9182)
+
+
 - 20 PCs connected to a **switch**.
-- A **server** provides services like DHCP or internal file storage.
+- A **server** provides DHCP services for dynamic ip addressing (automatic ip addressing) for all 20 PCs.
 
 ### 2. Admin LAN (Center)
+
+![image](https://github.com/user-attachments/assets/6b50d138-3965-44f9-b9ce-5fe0e456c8ce)
+
+
 - 4 administrative PCs connected through a central **switch**.
 - Possibly isolated via a VLAN for security or management.
 
 ### 3. IoT & Wireless LAN (Right)
+
+
+
 - IoT devices (Webcam, Fan, Light, Garage Door) connected via an **Access Point**.
 - Includes a **server**, **laptop**, and **PCs** to manage or monitor IoT operations.
