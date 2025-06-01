@@ -35,7 +35,6 @@ The network is split into three segments, all connected through a central **rout
 
 ![image](https://github.com/user-attachments/assets/30fb6356-b687-4c3a-b798-4c746a6a9182)
 
-
 - 20 PCs connected to a **switch**.
 - A **server** provides DHCP services for dynamic ip addressing (automatic ip addressing) for all 20 PCs.
 
@@ -43,13 +42,22 @@ The network is split into three segments, all connected through a central **rout
 
 ![image](https://github.com/user-attachments/assets/6b50d138-3965-44f9-b9ce-5fe0e456c8ce)
 
-
 - 4 administrative PCs connected through a central **switch**.
 - Possibly isolated via a VLAN for security or management.
 
 ### 3. IoT & Wireless LAN (Right)
 
+![image](https://github.com/user-attachments/assets/f541ae10-28db-4355-aa87-22d85b95fbc9)
 
-
-- IoT devices (Webcam, Fan, Light, Garage Door) connected via an **Access Point**.
+- IoT devices (Smartphone, Speaker, and AC) connected via an **Access Point**.
 - Includes a **server**, **laptop**, and **PCs** to manage or monitor IoT operations.
+
+---
+## Configuration
+
+# Setting-up Router
+# Setting-up Switch
+# Setting-up Server
+# Setting-up Access Pointer
+# Setting-up
+# Setting-up
