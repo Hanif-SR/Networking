@@ -55,9 +55,17 @@ The network is split into three segments, all connected through a central **rout
 ---
 ## Configuration
 
-# Setting-up Router
-# Setting-up Switch
-# Setting-up Server
-# Setting-up Access Pointer
-# Setting-up
-# Setting-up
+This part will cover the documentation of every device's configuration.
+
+### Setting-up Router
+
+
+### Setting-up Switch
+
+### Setting-up Server
+
+### Setting-up Access Pointer
+
+### Setting-up PC (Endpoint Devices)
+
+### Setting-up IoT Devices
