@@ -165,4 +165,33 @@ after the account is created then log in
 
 Monitoring IoT devices can be done within the same subnet of any Endpoint Devices
 
+
+
+### Setting-up VLAN (Virtual Local Area Network)
+
+Use Switch 3 configuration by openning config and VLAN Database, add VLAN Number and Name `10` and `VLAN-Tesing`
+
+![image](https://github.com/user-attachments/assets/16678729-dc15-4f97-af55-eae10cb9b792)
+
+VLAN 10
+
+![image](https://github.com/user-attachments/assets/b1783e52-d7b7-4276-845b-997937d9fb4a)
+
+VLAN 1 (Default)
+
+![image](https://github.com/user-attachments/assets/2cd05c5b-30e1-4aa0-a61a-00d4abd49b02)
+
+Testing Connection via packets and ping ip address
+
+Both PC are in the same subnet
+
+![image](https://github.com/user-attachments/assets/0c25ef4e-f915-4f04-8a3b-87053a736c35)
+
+
+![image](https://github.com/user-attachments/assets/ba1b89e5-0336-4173-9649-1af537572097)
+
+
+![image](https://github.com/user-attachments/assets/3a460bec-49ba-45cd-9734-ce28cc9f0a0e)
+
+
 ---
